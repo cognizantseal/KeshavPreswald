@@ -1,0 +1,24 @@
+[project]
+title = "Preswald Project"
+version = "0.1.0"
+port = 8501
+slug = "preswald-project"  
+entrypoint = "hello.py"    
+
+[branding]
+name = "Vegetable Report"
+logo = "images/broccoli.png"
+favicon = "images/carrot.ico"
+primaryColor = "#13f86f"
+
+[data.sample_csv]
+type = "csv"
+path = "data/sample.csv"
+
+[data.veg]
+type = 'csv'
+path = 'data/Vegetable-Prices-2022.csv'
+
+[logging]
+level = "INFO"  
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
